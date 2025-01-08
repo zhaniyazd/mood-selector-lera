@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://media.istockphoto.com/id/1439973042/vector/red-heart-flat-icon-the-symbol-of-love-vector-illustration.jpg?s=612x612&w=0&k=20&c=i2vL1DR3XaqPcLAUBiaQzeQOj8uqksXED6wI66MO3h0=" type="image/png">
+    <link rel="icon"
+        href="https://png.pngtree.com/png-vector/20190909/ourmid/pngtree-red-heart-icon-isolated-png-image_1726594.jpg"
+        type="image/png">
     <title>Лерочка ты как?</title>
     <style>
         body {
@@ -12,15 +15,18 @@
             background-color: #b6dbe4;
             text-align: center;
         }
+
         h1 {
             color: #333;
         }
+
         table {
             margin: 20px auto;
             border-collapse: collapse;
             width: 60%;
             table-layout: fixed;
         }
+
         td {
             padding: 20px;
             text-align: center;
@@ -30,9 +36,11 @@
             background-color: #f9a9ce;
             transition: background-color 0.3s ease;
         }
+
         td:hover {
             background-color: #dcdcdc;
         }
+
         td button {
             background-color: #4CAF50;
             color: white;
@@ -42,9 +50,11 @@
             font-size: 16px;
             cursor: pointer;
         }
+
         td button:hover {
             background-color: #45a049;
         }
+
         .output {
             margin: 20px auto;
             padding: 20px;
@@ -55,14 +65,16 @@
             background-color: #fff;
             width: 60%;
         }
+
         img {
-    max-width: 100%; /* Изображение будет занимать не больше ширины контейнера */
-    height: auto; /* Сохраняет пропорции изображения */
-    display: block; /* Изображение не будет вызывать проблемы с вертикальным выравниванием */
-    margin: 10px auto; /* Центрирует изображение */
-}
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
     </style>
 </head>
+
 <body>
     <h1>Выбери своё настроение</h1>
     <table>
@@ -74,10 +86,11 @@
         <tr>
             <td onclick="showContent('angry')">Когда злость</td>
             <td onclick="showContent('calm')">Когда спокойно</td>
-            <td onclick="showContent('excited')">Когда взволнована</td>
+            <td onclick="showContent('excited')">Когда взволнован</td>
         </tr>
     </table>
     <div class="output" id="output">Нажмите на ячейку, чтобы что-то увидеть)</div>
     <script src="mood.js"></script>
 </body>
+
 </html>
